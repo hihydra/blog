@@ -1,0 +1,257 @@
+[ 2015-09-03T09:37:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+
+[ 2015-09-03T09:37:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `tp_user` SET `status`='1',`loginip`='127.0.0.1',`logintime`='1441244274' WHERE `id` = '1' [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0040s ]
+
+[ 2015-09-03T09:56:32+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='2' WHERE `id` IN ('31') [ RunTime:0.0240s ]
+
+[ 2015-09-03T09:56:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='3' WHERE `id` IN ('31','30') [ RunTime:0.0580s ]
+
+[ 2015-09-03T09:56:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_article` SET `cid`='2' WHERE `id` IN ('31','30') [ RunTime:0.0500s ]
+
+[ 2015-09-03T09:57:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='2' WHERE `id` IN ('31','30') [ RunTime:0.0130s ]
+
+[ 2015-09-03T09:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='5' WHERE `id` IN ('31','30') [ RunTime:0.0200s ]
+
+[ 2015-09-03T09:57:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_article` SET `cid`='3' WHERE `id` IN ('31','30') [ RunTime:0.0200s ]
+
+[ 2015-09-03T09:57:22+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='2' WHERE `id` IN ('31','30') [ RunTime:0.0460s ]
+
+[ 2015-09-03T09:57:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='3' WHERE `id` IN ('31','30') [ RunTime:0.0150s ]
+
+[ 2015-09-03T09:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/move
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `cid`='2' WHERE `id` IN ('31','30') [ RunTime:0.0380s ]
+
+[ 2015-09-03T10:08:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/toTrach
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `del`='0' WHERE `id` IN ('28','27','26','25','24','23','22','21','20','19') [ RunTime:0.0140s ]
+
+[ 2015-09-03T10:08:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/toTrach
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_article` SET `del`='0' WHERE `id` IN ('18','17','16') [ RunTime:0.0170s ]
+
+[ 2015-09-03T10:11:57+08:00 ] 127.0.0.1 /index.php/Admin/Article/toTrach
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `del`='1' WHERE `id` IN ('31','30','29','28','27','26','25','24','23','22') [ RunTime:0.0240s ]
+
+[ 2015-09-03T10:20:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tp_article` WHERE `id` IN ('23') [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0030s ]
+SQL: DELETE FROM `tp_article_attr` WHERE `bid` IN ('23') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+
+[ 2015-09-03T10:20:34+08:00 ] 127.0.0.1 /index.php/Admin/Article/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tp_article` WHERE `id` IN ('24','22') [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0030s ]
+SQL: DELETE FROM `tp_article_attr` WHERE `bid` IN ('24','22') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+
+[ 2015-09-03T10:20:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tp_article` WHERE `id` IN ('30','29') [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tp_article_attr` WHERE `bid` IN ('30','29') [ RunTime:0.0730s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+
+[ 2015-09-03T10:21:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/toTrach
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_article` SET `del`='0' WHERE `id` IN ('31','28','27','26','25') [ RunTime:0.0220s ]
+
+[ 2015-09-03T16:54:51+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-03T16:55:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_user` SET `status`='1',`loginip`='127.0.0.1',`logintime`='1441270537' WHERE `id` = '1' [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0050s ]
+
+[ 2015-09-03T16:55:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/Register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+
+[ 2015-09-03T16:55:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/Register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '11111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-03T16:56:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/Register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '11111' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`email`,`registered`) VALUES ('11111','e10adc3949ba59abbe56e057f20f883e','12@qq.com','1441270561') [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0040s ]
+
+[ 2015-09-03T16:56:28+08:00 ] 127.0.0.1 /index.php/Admin/User/editUser/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' E:\wamp\www\blog\Application\Admin\Controller\UserController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_user` SET `username`='11111',`password`='e10adc3949ba59abbe56e057f20f883e',`email`='12@qq.com',`status`='1',`loginip`='127.0.0.1',`logintime`='1441270588' WHERE `id` = 2 [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0030s ]
+
+[ 2015-09-03T17:27:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/Register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '323232' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`email`,`persona`,`registered`) VALUES ('323232','e10adc3949ba59abbe56e057f20f883e','12@qq.com','2','1441272434') [ RunTime:0.0540s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0060s ]
+
+[ 2015-09-03T17:28:55+08:00 ] 127.0.0.1 /index.php/Admin/User/editUser/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' E:\wamp\www\blog\Application\Admin\Controller\UserController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_user` SET `username`='323232',`password`='e10adc3949ba59abbe56e057f20f883e',`email`='12@qq.com',`persona`='2',`status`='1',`loginip`='127.0.0.1',`logintime`='1441272535' WHERE `id` = 3 [ RunTime:0.0800s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0040s ]
+
+[ 2015-09-03T17:29:54+08:00 ] 127.0.0.1 /index.php/Admin/User/editUser/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' E:\wamp\www\blog\Application\Admin\Controller\UserController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_user` SET `username`='323232',`password`='e10adc3949ba59abbe56e057f20f883e',`email`='12@qq.com',`persona`='2',`loginip`='127.0.0.1',`logintime`='1441272594' WHERE `id` = 3 [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0040s ]
+
+[ 2015-09-03T17:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/Register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = 'hehe' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`email`,`persona`,`registered`) VALUES ('hehe','e10adc3949ba59abbe56e057f20f883e','12@qq.com','2','1441272744') [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0040s ]
+
+[ 2015-09-03T17:37:59+08:00 ] 127.0.0.1 /index.php/Admin/User/editUser/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' E:\wamp\www\blog\Application\Admin\Controller\UserController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0050s ]
+
+[ 2015-09-03T17:38:05+08:00 ] 127.0.0.1 /index.php/Admin/User/editUser/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' E:\wamp\www\blog\Application\Admin\Controller\UserController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_user` SET `username`='hehe',`password`='e10adc3949ba59abbe56e057f20f883e',`email`='12@qq.com',`persona`='2' WHERE `id` = 4 [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0050s ]
+
+[ 2015-09-03T17:46:37+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index
+ERR: 模板不存在:./Application/Admin/View/default/Comment/index.tpl
+

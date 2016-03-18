@@ -1,0 +1,494 @@
+[ 2015-09-16T09:36:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 27 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 109 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `tp_cate` LIMIT 4   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0130s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0390s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 79 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `del` = 0 LIMIT 0,2   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 92 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `del` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0070s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='26' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='27' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='28' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='31' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: slug E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 113 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE `del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 128 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 147 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.593034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.593034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-16T09:36:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-16T09:36:09+08:00 ] 127.0.0.1 /category/uncategorized/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 27 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 109 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 97 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_cate` LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT `slug`,`name` FROM `tp_cate` WHERE ( slug='uncategorized' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='uncategorized' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 57 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `cid` IN ('1') AND `del` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='27' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='uncategorized' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE `cid` IN ('1') AND `del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='uncategorized' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0030s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 92 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `cid` IN ('1') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='uncategorized' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 112 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `cid` IN ('1') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-16T09:36:10+08:00 ] 127.0.0.1 /category/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 27 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 109 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 97 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_cate` LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT `slug`,`name` FROM `tp_cate` WHERE ( slug='css' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='css' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 57 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `cid` IN ('5','2') AND `del` = 0 LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='26' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='31' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='css' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE `cid` IN ('5','2') AND `del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='css' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0030s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 92 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `cid` IN ('5','2') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='css' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 112 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `cid` IN ('5','2') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='26' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='31' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-16T09:36:10+08:00 ] 127.0.0.1 /category/html5/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 27 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined index: typeid E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 65 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 109 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 97 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_cate` LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT `slug`,`name` FROM `tp_cate` WHERE ( slug='html5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='html5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 57 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `cid` IN ('3') AND `del` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='28' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 72 行.
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='html5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE `cid` IN ('3') AND `del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='html5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0030s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 92 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `cid` IN ('3') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( slug='html5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 112 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `cid` IN ('3') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='28' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\ab307cc10ab1243e30f1bbebdb2f11d4.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-16T09:36:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 27 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 63 行.
+NOTIC: [8] Undefined variable: parse E:\wamp\www\blog\Application\Home\TagLib\Blog.class.php 第 109 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_cate` LIMIT 4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_article_attr` [ RunTime:0.0030s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 79 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `del` = 0 LIMIT 0,2   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 92 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `del` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_attr` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='26' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='27' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='28' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='31' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 107 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: slug E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 113 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE `del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `bid` FROM `tp_article_attr` WHERE ( aid=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 128 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `id` IN ('') AND `del` = 0 LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 147 行.
+SQL: SELECT `id`,`title`,`summary`,`click`,`cid` FROM `tp_article` WHERE `del` = 0 LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0010s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id FROM tp_article_attr AS a, tp_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0000s ]
+SQL: SELECT `name`,`slug` FROM `tp_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+NOTIC: [8] Undefined index: time E:\wamp\www\blog\Application\Runtime\Cache\Home\f1d5ee3ec9be65b38aeff455f354d408.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

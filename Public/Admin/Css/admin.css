@@ -1,0 +1,48 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+/*左导航按钮*/
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #101010;
+    border-right: 1px solid #eee;
+}
+
+.nav-header.collapsed > span.glyphicon-chevron-toggle:before {
+    content: "\e114";
+}
+
+.nav-header > span.glyphicon-chevron-toggle:before {
+  content: "\e113";
+}
+.secondmenu a {
+  font-size: 12px;
+  color: #4A515B;
+  text-align: center;
+}
+.secondmenu li.active {
+  background-color: #eee;
+  border-color: #428bca;
+}
+.upload-img-box {
+  margin-top: 4px;
+}
+.upload-img-box .upload-pre-item img{
+  padding: 1px;
+  width: 120px;
+  max-height: 120px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
